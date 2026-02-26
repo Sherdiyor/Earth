@@ -208,7 +208,6 @@ print('\033[2J\033[H')
 print('\u001b[31m')  # red
 # 8
 print("""
-
                   _,o#bH\\??::?o?cbo_
               .o#MH#**SH''' '`*H#'*#MHo_
             oHMMMH^  ^'    -  `      '*HHo.
@@ -378,5 +377,5 @@ print("""
               ` .                    .-
                   ' -==pHMMH##HH#'''
                   """)
-print('\u001b[30m')
+print('\u001b[0m')
 print("THE END")
