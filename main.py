@@ -1,11 +1,9 @@
 from time import sleep
 
 
-print('\033[2J\033[H')
-print('\u001b[32m')  # green
-# 1
-print("""
-                _-o#&&*''''?d:>b\\_
+print('\033[2J\033[H', end='')
+print('\u001b[32m', end='')
+print("""                _-o#&&*''''?d:>b\\_
               _o/'`''  '',, dMF9MMMMMHo_
            .o&#'        `'MbHMMMMMMMMMMMHo.
          .o'' '         vodM*$&&HMMMMMMMMMM?.
@@ -30,11 +28,9 @@ print("""
                   '`--._,dd###pp='''
                   """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[31m')  # red
-# 2
-print("""
-                  .ovr:HMM#?:`' >b\\_
+print('\033[2J\033[H', end='')
+print('\u001b[31m', end='')
+print("""                  .ovr:HMM#?:`' >b\\_
               .,:&Hi' `'   '' \\\\|&bSMHo_
             oHMMM#*}          `?&dMMMMMMHo.
          .dMMMH'''''           ,oHH*&&9MMMM?.
@@ -59,11 +55,9 @@ print("""
                   '-:b~\\\\_,oddq==--'
 """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[32m')  # green
-# 3
-print("""
-                  _oo##'9MMHb':'-,o_
+print('\033[2J\033[H', end='')
+print('\u001b[32m', end='')
+print("""                  _oo##'9MMHb':'-,o_
               .vM':HH$'    '''  '' -\\7*_
            .oHMMMHMH#9:          '\\bMMMMHo.
          . ,dMMMMMMMMMMM'`' `           ?MP?.
@@ -88,11 +82,9 @@ print("""
                   '-.-~ooHH__,,v~--`
                   """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[31m')  # red
-# 4
-print("""
-                  _,\\?dZkMHF&$*q#b..
+print('\033[2J\033[H', end='')
+print('\u001b[31m', end='')
+print("""                  _,\\?dZkMHF&$*q#b..
               .//9MMMMMMM?:'HM\\\\'`-''`..
            ..`  :MMMMMMMMMMHMMMMH?_    `-\\
          .     .dMMMMMMMMMMMMMM''''       `\\.
@@ -117,11 +109,9 @@ print("""
                   '-. -voboo#&:,-.-`
                   """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[32m')  # green
-# 5
-print("""
-                  _\\oo\\?ddk9MRbS>v\\_
+print('\033[2J\033[H', end='')
+print('\u001b[32m', end='')
+print("""                  _\\oo\\?ddk9MRbS>v\\_
               ..:>*''MMMMMMMMM:?|H?$?-.
            ..- -     'HMMMMMMMMMMHMMMH\\_-.
          .            dMMMMMMMMMMMMMMT'    .
@@ -146,11 +136,9 @@ print("""
                   '-. .\\ooooboo<^.-`
                   """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[31m')  # red
-# 6
-print("""
-                  _o\\:,??\\??MR9#cb\\_
+print('\033[2J\033[H', end='')
+print('\u001b[31m', end='')
+print("""                  _o\\:,??\\??MR9#cb\\_
               .v/''':&#''#HMMMMMMM$?*d\\.
            ..~' - -`      `'#MMMMMMMMMMMHv.
          .-'                 HMMMMMMMMMMMR!.
@@ -175,11 +163,9 @@ print("""
                   '---.._\\o,oov+--''
                   """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[32m')  # green
-# 7
-print("""
-                  _,oc>?_:b?o?HH#b\\_
+print('\033[2J\033[H', end='')
+print('\u001b[32m', end='')
+print("""                  _,oc>?_:b?o?HH#b\\_
               .v/99*''' '*H#''*HMMMMMZ,_
             oH* /'   -   '      '`#MMMMM#o.
          ./*>-                     `MMMMMMMb
@@ -204,11 +190,9 @@ print("""
                  ```^==\\_.,,,ov--\\-`
                  """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[31m')  # red
-# 8
-print("""
-                  _,o#bH\\??::?o?cbo_
+print('\033[2J\033[H', end='')
+print('\u001b[31m', end='')
+print("""                  _,o#bH\\??::?o?cbo_
               .o#MH#**SH''' '`*H#'*#MHo_
             oHMMMH^  ^'    -  `      '*HHo.
          .dMMM#'>>-                     `HM?.
@@ -233,11 +217,9 @@ print("""
                   '`*#d##c.._\\v----`
                   """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[32m')  # green
-# 9
-print("""
-                  _oo#H&d#b?\\b:_>>\\_
+print('\033[2J\033[H', end='')
+print('\u001b[32m', end='')
+print("""                  _oo#H&d#b?\\b:_>>\\_
               .oHMMMMMMH*'*9R''-``*#P\\-_
             oHMMMMMMMMM$  .'       '   `^-
          .dMMMMMMMMH*',?-                 '\\.
@@ -262,11 +244,9 @@ print("""
                   '`*##HMH##:__,-.-`
                   """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[31m')  # red
-# 10
-print("""
-                  _,dd#HMb&dHo?\\?:\\_
+print('\033[2J\033[H', end='')
+print('\u001b[31m', end='')
+print("""                  _,dd#HMb&dHo?\\?:\\_
               .oHMMMMMMMMMMMH***9P'`'\\v.
             oHMMMMMMMMMMMMMMM>  `'      -.
          .dMMMMMMMMMMMMMMMH*'|~-'          .
@@ -291,11 +271,9 @@ print("""
                   '`'#HHMMMMM#<>..-`
                   """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[32m')  # green
-# 11
-print("""
-                  _,,>#b&HMHd&&bb>\\_
+print('\033[2J\033[H', end='')
+print('\u001b[32m', end='')
+print("""                  _,,>#b&HMHd&&bb>\\_
               _oHMMMMMMMMMMMMMMMMH**H:.
             oHMMMMMMMMMMMMMMMMMMMM#v`?  `.
          .dMMMMMMMMMMMMMMMMMMMMMMH*`+|     .
@@ -320,11 +298,9 @@ print("""
                   '`\\bqHMMMMMMHHb--`
                   """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[31m')  # red
-# 12
-print("""
-                  _,<_:&S6dHHHb&bb\\_
+print('\033[2J\033[H', end='')
+print('\u001b[31m', end='')
+print("""                  _,<_:&S6dHHHb&bb\\_
               .odHMMMMMMMMMMMMMMMMMMM}-_
            .oHMMMMMMMMMMMMMMMMMMMMMMMM#d:.
           ?9MMMMMMMMMMMMMMMMMMMMMMMMMMMH-$ .
@@ -349,11 +325,9 @@ print("""
                   '--##HH#HMMMHH#''`
                   """)
 sleep(1)
-print('\033[2J\033[H')
-print('\u001b[32m')  # green
-# 13
-print("""
-                  .-:?,Z?:&$dHH##b\\_
+print('\033[2J\033[H', end='')
+print('\u001b[32m', end='')
+print("""                  .-:?,Z?:&$dHH##b\\_
                ,:bqRMMMMMMMMMMMMMMMMMHo.
             .?HHHMMMMMMMMMMMMMMMMMMMMMMMHo.
           -o/*M9MMMMMMMMMMMMMMMMMMMMMMMMMMMv
